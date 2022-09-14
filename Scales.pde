@@ -1,5 +1,5 @@
 int myColor = color(240,194,194);
-int myColor2 = color(#FADCDC);
+int myColor2 = color(250, 220, 220);
 
 void setup(){
   size(500,500);
@@ -20,7 +20,7 @@ void draw(){
     else
       shift = true;
   }
-  if(Math.random() < .5 ){
+  /*if(Math.random() < .5 ){
     myColor = color(#F7BEBE);
   }
   else{
@@ -30,7 +30,7 @@ void draw(){
     myColor2 = color(#F5D2D2);
   }
   else
-    myColor2 = color(#FADCDC);
+    myColor2 = color(#FADCDC);*/
 }
 
 
